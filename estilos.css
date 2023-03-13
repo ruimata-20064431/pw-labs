@@ -1,0 +1,39 @@
+*{ 
+    font-family: "Audiowide", sans-serif;
+    background-color: aliceblue;
+}
+
+h1{ color:darkblue}
+
+img{border: 1px solid #272525;
+    border-radius: 4px;
+    padding: 5px;
+  }
+  
+footer {font-weight: bold;}
+
+table { border-spacing: 2px;
+    cellspacing:"10px";
+    cellpadding:"10px";
+    border:"1px";
+    bgcolor:dimgrey;
+    align:"center";
+}
+
+
+a:link{color: blue;}
+a:visited{color: gray;}
+a:hover{color: pink;}
+a:active{color: red;}
+
+
+.field2 {background-color: lightgoldenrodyellow;}
+
+#enviar{background-color: lightgreen;}
+
+#fieldset1{background-color: lightcyan;}
+#fieldset2{background-color: lightgoldenrodyellow;}
+
+div:hover{background-color: violet;}
+
+p::first-letter{font-size: 2em;}

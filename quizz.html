@@ -1,0 +1,99 @@
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <title>Lisboa</title>
+    <meta name="author" content="Rui Mata">
+    <meta name="keywords" content="Cidade Lisboa">
+    <meta name="description" content="Website sobre Lisboa">
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <header>
+        <p>
+            <a href="index.html">Laboratórios PW</a>
+        </p>
+        <hr>
+        <h1>Lisboa</h1>
+        <br>
+        <figure>
+            <img src="images/lisboa-torre-belem-004.jpg" width="300">
+            <figcaption>
+                <details>
+                    A torre de Blelém - Monumento histórico
+                </details>
+            </figcaption>
+        </figure>
+    </header>
+    <nav>
+        <p>
+            <a href="index.html">🏠Introdução</a>
+            <a href="local.html">🗺Localização</a>
+            <a href="multimedia.html">📽Multimédia</a>
+            <a href="info.html">ℹInformação</a>
+            <a href="quizz.html"><span style="font-weight: bold">🙋‍♀️Quizz</span></a>
+            <a href="html5-css.html">👿HTML5</a>
+        </p>
+    </nav>
+    <main>
+        <section>
+            <h2>Quizz</h2>
+            <hr>
+            <p>Será que conhece a fundo a cidade de Lisboa?</p>
+            <p>Vamos colocar à prova os seus conhecimentos com um pequeno quizz</p>
+            <form method="POST" action="mailto: ruimatadev@gmail.com" enctype="multipart/form-data">
+                <fieldset>
+                    <legend>Quizz sobre Lisboa</legend>
+                    <fieldset id="fieldset1">
+                        <h3 id="fieldset1"></h3id>>info</h3>
+                        <p id="fieldset1"></pid>Nome: <input type="text" name="nome"></p>
+                        <p id="fieldset1"></pid>Apelido: <input type="text" name="apelido"></p>
+                        <p id="fieldset1"></pid>Telefone: <input type="text" name="telefone"></p>
+                    </fieldset>
+                    <fieldset id="fieldset2">
+                        <h3 class="field2">perguntas</h3>
+                        <p class="field2">Vive em Lisboa
+                            <input class="field2" type="checkbox" id="rsident" name ="resident" value="true"></p>
+                        <p class="field2">Quantas colinas tem lisboa:</p>
+                            <input class="field2" type="radio" id="seven" name="colinas" value="seven">
+                            <label class="field2" for="seven">Sete</label><br>
+                            
+                            <input class="field2" type="radio" id="five" name="colinas" value="five">
+                            <label class="field2" for="five">Cinco</label><br>
+                            
+                            <input class="field2" type="radio" id="nine" name="colinas" value="nine">
+                            <label class="field2" for="nine">Nove</label>>
+                        <p class="field2">
+                        <label class="field2" for="clubs">Quantos clubes de futebols de Lisboa militam na primeira Divisao [0..10]:</label>
+                            <input class="field2" type="range" value="0" id="clubs" name="clubs" min="0" max="10" oninput="this.nextElementSibling.value = this.value">
+                            <output class="field2">0</output>
+                        </p>
+                        <p class="field2">
+                            <label class="field2" for="statue">De que escritor é a estátua no chiado:</label>
+                            <select class="field2" id="statue" name="statue">
+                              <option value="Marquês de Pombal" selected>Pombal</option>
+                              <option value="Miguel Torga">Torga</option>
+                              <option value="Fernando Pessoa" >Pessoa</option>
+                              <option value="Bocage">Bocage</option>
+                            </select>
+                        </p>
+                        <br>
+                        <p>
+                            <p class="field2">Deixe aqui o seu comentário</p>
+                            <textarea name = "comment" rows="5" cols="80">
+                                coloque aqui o seu texto
+                            </textarea>
+                        </p>
+                    </fieldset>
+                    <br>
+                    <input type="submit" id="enviar" value="enviar">
+                </fieldset>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>Rui Mata - a20064431 - ULHT 2023</p>
+    </footer>
+</body>
+</html>
